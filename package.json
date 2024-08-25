@@ -4,19 +4,7 @@
   "version": "0.0.0",
   "author": "",
   "private": true,
-  "homepage": "https://github.com/actions/javascript-action#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/actions/javascript-action.git"
-  },
-  "bugs": {
-    "url": "https://github.com/actions/javascript-action/issues"
-  },
-  "keywords": [
-    "GitHub",
-    "Actions",
-    "JavaScript"
-  ],
+  "main": "dist/index.js",
   "exports": {
     ".": "./dist/index.js"
   },
