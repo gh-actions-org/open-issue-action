@@ -20,6 +20,9 @@ outputs:
   issue: # id of output
     description: 'The issue object as JSON string'
 
+permissions:
+  issues: write
+
 runs:
   using: node20
   main: dist/index.js
